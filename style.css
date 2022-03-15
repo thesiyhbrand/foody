@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#first{
+    position: absolute;
+    top: -35%;
+    left: -10%;
+    transform: rotate(50deg);
+    opacity: 80%;
+}
+
+#scnd{
+    position: absolute;
+    top: -25%;
+    right: -15%;
+    opacity: 90%;
+    transform: rotate(50deg);
+}
+
+#third{
+    position: absolute;
+    bottom: -25%;
+    right: -13%;
+    opacity: 90%;
+    transform: rotate(270deg);
+}
+
+#fourth{
+    position: absolute;
+    bottom: -25%;
+    left: -10%;
+    opacity: 90%;
+    transform: rotate(50deg);
+}
+
+#red{
+    position: absolute;
+    top: 8%;
+    left: 1%;
+    width: 100px;
+    transform: rotate(-130deg);
+}
+
+#redside{
+    position: absolute;
+    top: 45%;
+    right: -8%;
+    width: 200px;
+    transform: rotate(-130deg);
+}
+
+#a{
+    position: absolute;
+    width: 50px;
+    top: 50%;
+    left: 10%;
+}
+
+#b{
+    position: absolute;
+    width: 50px;
+    top: 50%;
+    left: -1%;
+}
+
+#c{
+    position: absolute;
+    width: 50px;
+    top: 57%;
+    left: -0.5%;
+    transform: rotate(50deg);
+}
+
+#d{
+    position: absolute;
+    width: 50px;
+    top: 15%;
+    left: 60%;
+    transform: rotate(-100deg);
+}
+
+#e{
+    position: absolute;
+    width: 50px;
+    top: 20%;
+    left: 57.5%;
+    transform: rotate(-175deg);
+}
+
+#f{
+    position: absolute;
+    width: 50px;
+    top: 75%;
+    right: 10%;
+}
+
+#g{
+    position: absolute;
+    width: 50px;
+    top: 78%;
+    right: 20%;
+    transform: rotate(-125deg);
+}
+
+#mist{
+    position: absolute;
+    width: 250px;
+}
+
+#mist2{
+    position: absolute;
+    width: 250px;
+    top: 65%;
+    left: 65%;
+}
+
+#mist3{
+    position: absolute;
+    width: 400px;
+    transform: rotate(-120deg);
+    bottom: 0%;
+    left: 15%;
+}
+
+#mainsalt{
+    position: absolute;
+    left: 53%;
+    top: 20%;
+}
+
+#mainleaf{
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    width: 500px;
+}
+
+#cntrimage{
+    position: absolute;
+    width: 500px;
+    top: 18%;
+    left: 50%;
+    
+}
+
+#small{
+    position: absolute;
+    width: 150px;
+    top: 62%;
+    left: 51%;
+}
+
+#smallred{
+    width: 250px;
+    position: absolute;
+    bottom: 15%;
+    right: 20%;
+    transform: rotate(75deg);
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+#nav img{
+    width: 110px;
+}
+
+#menus{
+    display: flex;
+}
+
+#menus a{
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+
+#underline{
+    width: 43px;
+    height: 2px;
+    margin-top: 2px;
+    background-image: linear-gradient(to right, red , rgb(255, 136, 0));
+}
+
+#text1{
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    font-size: 40px;
+    line-height: 65px;
+    letter-spacing: 3px;
+}
+
+#text1 h1{
+    color: white;
+    font-family: 'Aladin', cursive;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+#text2{
+    display: flex;
+    position: absolute;
+    top: 58%;
+    left: 17%;
+}
+
+#circle{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(to right, red , rgb(255, 136, 0));
+    border-radius: 50%;
+}
+
+#circle i{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#text2 p{
+    color: white;
+    padding-left: 15px;
+}
+
+#text2 p span{
+    color: orangered;
+}
+
+#search{
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 17%;
+    width: 400px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 10px 5px 2px #0c0c0c63;
+}
+
+#search h5{
+    color: #9b9b9b;
+    letter-spacing: 1px;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(0%, -50%);
+}
+
+#go{
+    position: absolute;
+    right: 5px;
+    width: 150px;
+    height: 80%;
+    background-image: linear-gradient(to right, rgb(255, 136, 0), red);
+    border-radius: 50px;
+}
+
+#go h5{
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
